@@ -1,0 +1,17 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HOWMUCH</title>
+        <link rel="stylesheet" href="{% static 'howmuchApp/styles.css' %}">
+        <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script type="text/babel" src="{% static 'howmuchApp/index.js' %}"></script>
+    </head>
+    <body>
+        {% block body %}
+        {% endblock %}
+    </body>
+</html>

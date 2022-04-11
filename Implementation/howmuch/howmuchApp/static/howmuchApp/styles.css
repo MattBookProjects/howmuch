@@ -1,0 +1,78 @@
+body{
+    background-color: #202020;
+    color: white;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.nav-item{
+    min-width: 8em;
+    font-size: 2rem;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.nav-item:hover{
+    background-color: #404040;
+    cursor: pointer;
+}
+
+.register-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-page{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-self: center;
+    width: 50%;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.text-input{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.form-label {
+    font-size: 2rem;
+    padding: 0.5rem;
+    align-self: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.button {
+    width: 8em;
+    height: 3em;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem;
+    align-self: flex-end;
+    background-color: #2020cf;
+    color: white;
+}
+
+.button:hover {
+    background-color: #4040cf;
+    cursor: pointer;
+}
