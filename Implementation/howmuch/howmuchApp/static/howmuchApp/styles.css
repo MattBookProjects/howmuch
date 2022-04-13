@@ -34,7 +34,7 @@ body{
     align-items: center;
 }
 
-.register-page{
+.register-page, .login-page{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -42,7 +42,7 @@ body{
     width: 50%;
 }
 
-.register-form{
+.register-form, .login-form{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -75,4 +75,9 @@ body{
 .button:hover {
     background-color: #4040cf;
     cursor: pointer;
+}
+
+.error-message{
+    align-self: flex-end;
+    color: #ff0000
 }
